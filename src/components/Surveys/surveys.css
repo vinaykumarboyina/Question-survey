@@ -1,0 +1,164 @@
+.surveyContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+    margin-bottom: 3rem;
+}
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+.selectDropdown {
+    border:1px solid #f4c92e;
+    border-radius: 6px;
+    padding:10px;
+    background-color: #f4f2eb;
+
+}
+.select {
+    background-color: transparent;
+    color:black;
+    width:100px;
+    font-size:15px;
+    font-weight:700;
+    border:none;
+    outline:none;
+ }
+ .activeButton {
+    padding:15px;
+    border-radius: 4px;
+    background-color: #1f6bd9;
+ }
+ .normalButton {
+   padding:15px;
+   border-radius: 4px;
+}
+
+ .surveyButton {
+    padding:15px;
+    color:white;
+    background-color: #1f6bd9;
+    border:none;
+    border-radius: 4px;
+ }
+ .gridcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height:250px;
+    padding:4px;
+    background-color: #ffffff;
+ }
+ .surveyHeading {
+    font-size: 15px;
+    text-align: left;
+ }
+ .imageContainer {
+    background-color: #e2eaf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    width:220px;
+    height:130px;
+ }
+ .responseButton {
+   padding:15px;
+   color:white;
+   background-color: #1f6bd9;
+   border:none;
+   border-radius: 4px;
+}
+.listCard {
+   width:98%;
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   border-radius: 6px;
+   
+}
+.listheading {
+   font-size: 15px;
+}
+.headerContainer {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   background-color: #ebebeb;
+   padding-left:20px;
+   height:60px;
+}
+.createSurveyHeading {
+   text-align: left;
+   font-size: 20px;
+   color:#1f6bd9;
+   width:100%;
+}
+.descriptionContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   height:50%;
+}
+.surveySubHeading {
+   font-size: 20px;
+}
+.surveyInput {
+   border: 1px solid #ffe482;
+   border-radius: 4px;
+   font-size: 18px;
+   padding:16px;
+   color:#cccccc;
+   width:150px;
+}
+.surveytext {
+   border: 1px solid #ffe482;
+   border-radius: 4px;
+   font-family: 'Roboto';
+   font-size: 18px;
+   padding:16px;
+   color:#cccccc;
+   width:500px;
+   
+}
+.surveytext ::placeholder {
+   opacity: 0.1;
+}
+.surveyInput ::placeholder {
+   opacity: 0.1;
+}
+.surveytext:focus {
+   border: 1px solid #f4c92e;
+
+}
+.surveyInput:focus {
+   border: 1px solid #f4c92e;
+}
+.bottomContainer {
+   display: flex;
+   flex-direction: column;
+}
+.hrLine {
+   border: 1px solid #ededed;
+   width:100%;
+}
+.nextButton {
+   background-color: #ededed;
+   border:none;
+   width:150px;
+   font-size: large;
+   padding:10px;
+   color:#666666;
+   opacity:0.5;
+   border-radius: 4px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
