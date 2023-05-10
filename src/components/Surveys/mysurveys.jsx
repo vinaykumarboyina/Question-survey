@@ -19,12 +19,12 @@ const Mysurveys = () => {
   }
   return (
    <Layout>
-      <div style={{display:'flex', flexDirection:'column', paddingTop:'50px'}}>
+      <div style={{display:'flex', flexDirection:'column'}}>
         <div className='surveyContainer'>
           <h1 className='heading'>My Surveys</h1>
          <div style={{display:'flex', justifyContent:'space-between', width:'50%'}}>
          <div className='selectDropdown'>
-            <label for='sort'>sort by:</label>
+            <label htmlFor='sort'>sort by:</label>
             <select id='sort' className='select'>
               <option value='date'>Date</option>
             </select>
@@ -37,7 +37,7 @@ const Mysurveys = () => {
           <button className='surveyButton' onClick={navigateToCreateSurvey}>CREATE SURVEY</button>
          </div>
         </div>
-        <div style={{padding:'30px'}}>
+        <div style={{padding:"30px"}}>
           {gridView ? <GridCard /> : <ListCard /> }
           
           

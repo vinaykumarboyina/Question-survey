@@ -3,15 +3,15 @@ import styled from 'styled-components'
 export const NavbarContainer = styled.div`
 position:fixed;
 width:100%;
-height:7vh;
+// height:7vh;
 display: flex;
 justify-content: center;
 background-color:#1f6bd9`
 export const SidebarContainer = styled.div`
 background-color:#ffffff;
 width:20%;
-padding-top:50px;
-height:100vh`
+
+`
 export const ListContainer = styled.ul`
   list-style-type: none;
   padding: 0;

@@ -108,7 +108,7 @@ try{
           </div>
           {/* {error && <p className ='err-msg'>Invalid Credentials</p> } */}
           <div className='btn-field'>
-          <button className="button" type='submit'>Submit</button>
+          <button className="loginbutton" type='submit'>Submit</button>
           </div>
         </div>
       {/* <div>
